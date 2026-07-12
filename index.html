@@ -3,15 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <title>CampusBot</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Custom animated cursor -->
     <div class="cursor-dot"></div>
     <div class="cursor-ring"></div>
 
-    <!-- Animated background blobs -->
     <div class="bg-blob blob1"></div>
     <div class="bg-blob blob2"></div>
     <div class="bg-blob blob3"></div>
@@ -27,7 +25,7 @@
 
         <div id="chat-window" class="chat-window">
             <div class="message bot">
-                <span>Hi! I'm CampusBot. Ask me about admissions, fees, timings, library .</span>
+                <span>Hi! I'm CampusBot. Ask me about admissions, fees, courses, timings, or the library.</span>
             </div>
         </div>
 
@@ -41,6 +39,6 @@
         </div>
     </div>
 
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="script.js"></script>
 </body>
 </html>
